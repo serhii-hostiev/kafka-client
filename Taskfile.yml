@@ -1,0 +1,7 @@
+version: '3'
+
+tasks:
+  im:
+    cmds:
+      - docker build . -t sgostiev/python-java
+      - docker image push sgostiev/python-java
